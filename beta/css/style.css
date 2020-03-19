@@ -14,8 +14,8 @@ img.rounded { border:0; border-radius: 15px 15px 15px 15px; }
 img.roundeddropshadow { border:0; border-radius: 15px 15px 15px 15px;
 /* Drop shadow stuff: */
  box-shadow: 3px 3px 4px #999; /* CSS3 FF/Chrome/Safari */
- -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#999999')";/* IE 8 */
- : progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#999999');/* IE 5.5 - 7 */   
+ /* -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#999999')"; */ /* IE 8 (not supporting this anymore) */
+ /* : progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#999999');*/ /* IE 5.5 - 7 (Not supporting this anymore) */   
  }
  
 .gray {font-weight:bold; color:#999;}
@@ -60,9 +60,6 @@ a.importantlink:visited {color:#ff6633; text-decoration:none;}
 
 /* for the navigation divs, centers stuff: */
 .navdiv {text-align:center;}
-
-/* For facebook iframe on index.html, makes the validator happy [but I made it mad again cuz IE8 is so bad....: */
-iframe.iframefacebook { scrolling:no; frameborder:0; border:0px; allowtransparency:true; }
 
 #topnavbar { text-align:center; }
 
@@ -153,10 +150,10 @@ body {
 
 	/* Drop shadow stuff: */
  	box-shadow: 3px 3px 4px #999; /* CSS3 FF/Chrome/Safari */
-	/* IE 8 */
- 	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#999999')";
-	/* IE 5.5 - 7 */  
- 	: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#999999');  
+	/* IE 8 (Not supporting this anymore) */
+ 	/* -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#999999')"; */
+	/* IE 5.5 - 7 (Not supporting this anymore) */  
+ 	/* : progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#999999'); */
  
  	/* for making the left nav bar's drop shadow show over the content box: */
  	position:relative; /* Do not change this, changing this value to anything other than relative breaks the whole layout */
