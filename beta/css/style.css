@@ -70,6 +70,14 @@ a.importantlink:visited {color:#ff6633; text-decoration:none;}
 .subbullet {text-indent:50px; list-style-position: inside; list-style-type:square;} /* sub bullets */
 .subsubbullet {text-indent:70px; list-style-position: inside; list-style-type:circle;} /* sub bullets */
 
+/* Scale banner with size of the browser window */
+img.banner {
+    height: 100%;
+    width: 100%;
+    max-width: 768px;
+	max-height: 110px;
+}
+
 /* End misc things */
 
 /*==================================================================*/
