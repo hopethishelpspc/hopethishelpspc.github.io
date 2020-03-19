@@ -1,5 +1,5 @@
 /* Misc things */
-.jsfooter {font-size:10px;} /* Controls the Javascript footer attributes */
+.jsfooter {font-size:10px;background-color:#000000;color:#FFFFFF;} /* Controls the Javascript footer attributes */
 
 /* No bullets on lists */
 /*ul {list-style-type:none;}*/
@@ -208,7 +208,7 @@ body {
 	clear: both;
 	/*padding: 0 1em 1em 1.5em;*/ /* Commenting this out makes it take up whole width, sorta prettier */
 	background-color: #000000;
-	color:#FFFFFF;
+	color:#000000;
 	font-family:Arial, Helvetica, sans-serif;
 	
 	/* rounded borders: */
@@ -219,7 +219,7 @@ body {
 /* create space between the box and the the content */
 	padding: .5em 1em;
 	text-align: left;
-	background-color:#FFFFFF;
+	background-color:#000000;
 	font-size:10px;
 	font-family:Arial, Helvetica, sans-serif;
 	color:#000000;
@@ -227,29 +227,6 @@ body {
 	
 	/* rounded borders: */
 	border-radius: 15px 15px 15px 15px;
-	
-	/* CSS3 background gradient */
-	/* Generator: http://gradients.glrzad.com/ */
-	/* WebKit: */
-	background-image: -webkit-gradient(
-    linear,
-    left bottom,
-    left top,
-    color-stop(0.16, rgb(231,231,231)),
-    color-stop(0.67, rgb(255,255,255))
-	);
-	/*FF:*/
-	background-image: -moz-linear-gradient(
-    center bottom,
-    rgb(231,231,231) 16%,
-    rgb(255,255,255) 67%
-	);
-	/*Everything else/non-proprietary spec:*/
-	background-image: linear-gradient(
-    center bottom,
-    rgb(231,231,231) 16%,
-    rgb(255,255,255) 67%
-	);
 }
 
 #header_inner, #nav_inner, #content_inner {
