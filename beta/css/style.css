@@ -15,9 +15,9 @@ img.roundeddropshadow { border:0; border-radius: 15px 15px 15px 15px;
 /* Drop shadow stuff: */
  box-shadow: 3px 3px 4px #999; /* CSS3 FF/Chrome/Safari */
  /* -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#999999')"; */ /* IE 8 (not supporting this anymore) */
- /* : progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#999999');*/ /* IE 5.5 - 7 (Not supporting this anymore) */   
+ /* : progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#999999');*/ /* IE 5.5 - 7 (Not supporting this anymore) */
  }
- 
+
 .gray {font-weight:bold; color:#999;}
 
 h1 { color:#ff6633; }
@@ -87,7 +87,7 @@ body {
 	background-attachment:fixed; /* no move on scroll */
 }
 
-#capstonebar { 
+#capstonebar {
 	background-color:#000000;
 	padding-left:20px;
 	margin-top: -21px;
@@ -106,24 +106,24 @@ body {
 #main_wrapper {
 	/* This is the main box that envelopes everything else, this sets the master size */
 	/* if this width is omitted the layout becomes liquid filling the whole window */
-	width: 768px; /* master width */   
+	max-width: 768px; /* Maximum width allowed */
 	margin-left: auto;
 	margin-right: auto;
 	/* reset the centering hack for IE6 on the body tag */
 	text-align: left;
 	background-color: #000000;
 	border:solid #999; /* master page border */
-	
+
 	/* rounded borders, makes things less pointy and dangerous: */
 	border-radius: 15px 15px 15px 15px;
-	
+
 }
 
 #header {
 	/* The topmost boxlike area */
 	background-color: #000000;
 	font-family:Arial, Helvetica, sans-serif;
-	
+
 	/* rounded borders: */
 	border-radius: 15px 15px 15px 15px;
 }
@@ -132,19 +132,19 @@ body {
 /* create space between the box and the content */
 	background-color: #000000;
 	color:#000000;
-	padding-bottom:8px; /* spacing between bottom of nav links and stuff below */ 
-	
+	padding-bottom:8px; /* spacing between bottom of nav links and stuff below */
+
 	/* rounded borders: */
 	border-radius: 15px 15px 15px 15px;
 }
 
 #nav {
-	width: 25%;         
+	width: 25%;
 	float: left;
 	background-color: #000000;
 	font-family:Arial, Helvetica, sans-serif;
 	font-size:12px;
-	
+
 	/* rounded borders: */
 	border-radius: 15px 15px 15px 15px;
 
@@ -152,9 +152,9 @@ body {
  	box-shadow: 3px 3px 4px #999; /* CSS3 FF/Chrome/Safari */
 	/* IE 8 (Not supporting this anymore) */
  	/* -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#999999')"; */
-	/* IE 5.5 - 7 (Not supporting this anymore) */  
+	/* IE 5.5 - 7 (Not supporting this anymore) */
  	/* : progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#999999'); */
- 
+
  	/* for making the left nav bar's drop shadow show over the content box: */
  	position:relative; /* Do not change this, changing this value to anything other than relative breaks the whole layout */
  	z-index:1;
@@ -168,20 +168,20 @@ body {
 	font-size:12px;
 	font-family:Arial, Helvetica, sans-serif;
 	/*border-right: 3px solid #999;*/
-	
+
 	/* rounded borders: */
 	border-radius: 15px 15px 15px 15px;
 	/*position:fixed;*/ /*Enable if you want the left nav to stay with you as you scroll, its ugly though. */
-	
+
 }
 
 #content {
 	width: 75%;
 	float: left; /*Change to "right" along with above position change if you want the left nav to stay with you as you scroll, its ugly though. */
-	top: 0px;          
+	top: 0px;
 	background-color: #000000;
 	color:#FFFFFF;
-	
+
 	/* rounded borders: */
 	border-radius: 15px 15px 15px 15px;
 
@@ -199,7 +199,7 @@ body {
 	color:#FFFFFF;
 	font-family:Arial, Helvetica, sans-serif;
 	font-size:12px;
-	
+
 	/* rounded borders: */
 	border-radius: 15px 15px 15px 15px;
 }
@@ -210,7 +210,7 @@ body {
 	background-color: #000000;
 	color:#000000;
 	font-family:Arial, Helvetica, sans-serif;
-	
+
 	/* rounded borders: */
 	border-radius: 15px 15px 15px 15px;
 }
@@ -224,7 +224,7 @@ body {
 	font-family:Arial, Helvetica, sans-serif;
 	color:#000000;
 	text-align:center;
-	
+
 	/* rounded borders: */
 	border-radius: 15px 15px 15px 15px;
 }
