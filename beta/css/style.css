@@ -1,5 +1,5 @@
 /* Misc things */
-.jsfooter {font-size:10px;background-color:#000000;color:#FFFFFF;} /* Controls the Javascript footer attributes */
+.jsfooter {font-size:14px;background-color:#000000;color:#FFFFFF;} /* Controls the Javascript footer attributes */
 
 /* No bullets on lists */
 /*ul {list-style-type:none;}*/
@@ -35,12 +35,12 @@ a:link {color:#ff6633; text-decoration:none;}
 a:visited {color:#ff6633; text-decoration:none;}
 
 /*These correlate to the menuanchorclass things for the menu bars:*/
-a.menuanchorclass {color:#FF6633; text-decoration:none; text-transform:uppercase; font-weight:bold; font-size:12px;} /* Link 1 */
-a.menuanchorclass2 {color:#FF6633; text-decoration:none; text-transform:uppercase; font-weight:bold; font-size:12px;} /* Link 2 */
-a.menuanchorclass3 {color:#FF6633; text-decoration:none; text-transform:uppercase; font-weight:bold; font-size:12px;} /* Link 3 */
-a.menuanchorclass4 {color:#FF6633; text-decoration:none; text-transform:uppercase; font-weight:bold; font-size:12px;} /* Link 4 */
-a.menuanchorclass5 {color:#FF6633; text-decoration:none; text-transform:uppercase; font-weight:bold; font-size:12px;} /* Link 5 */
-a.menuanchorclass6 {color:#FF6633; text-decoration:none; text-transform:uppercase; font-weight:bold; font-size:12px;} /* Link 6 */
+a.menuanchorclass {color:#FF6633; text-decoration:none; text-transform:uppercase; font-weight:bold; font-size:18px;} /* Link 1 */
+a.menuanchorclass2 {color:#FF6633; text-decoration:none; text-transform:uppercase; font-weight:bold; font-size:18px;} /* Link 2 */
+a.menuanchorclass3 {color:#FF6633; text-decoration:none; text-transform:uppercase; font-weight:bold; font-size:18px;} /* Link 3 */
+a.menuanchorclass4 {color:#FF6633; text-decoration:none; text-transform:uppercase; font-weight:bold; font-size:18px;} /* Link 4 */
+a.menuanchorclass5 {color:#FF6633; text-decoration:none; text-transform:uppercase; font-weight:bold; font-size:18px;} /* Link 5 */
+a.menuanchorclass6 {color:#FF6633; text-decoration:none; text-transform:uppercase; font-weight:bold; font-size:18px;} /* Link 6 */
 
 /* Capstone bar links */
 a.capstonebarlink:link {color:#FF6633; font-family: Helvetica, sans-serif; text-decoration:none;}
@@ -103,13 +103,14 @@ body {
 	margin-right: -12px;
 	padding-top:1px;
 	width:100%;
-	}
+}
 
 #capstonebar_inner {
 	text-align:left;
 	color:#FFF;
 	font-family:Verdana, Geneva, sans-serif;
-	font-size:14px; }
+	font-size:20px;
+}
 
 #main_wrapper {
 	/* This is the main box that envelopes everything else, this sets the master size */
@@ -151,7 +152,7 @@ body {
 	float: left;
 	background-color: #000000;
 	font-family:Arial, Helvetica, sans-serif;
-	font-size:12px;
+	font-size:16px;
 
 	/* rounded borders: */
 	border-radius: 15px 15px 15px 15px;
@@ -173,7 +174,7 @@ body {
 	padding: 1em 2em;
 	background-color:#000000;
 	color:#FFFFFF;
-	font-size:12px;
+	font-size:16px;
 	font-family:Arial, Helvetica, sans-serif;
 	/*border-right: 3px solid #999;*/
 
@@ -206,7 +207,7 @@ body {
 	/*background-image:url(../images/contentbg.png);*/
 	color:#FFFFFF;
 	font-family:Arial, Helvetica, sans-serif;
-	font-size:12px;
+	font-size:16px;
 
 	/* rounded borders: */
 	border-radius: 15px 15px 15px 15px;
@@ -228,7 +229,7 @@ body {
 	padding: .5em 1em;
 	text-align: left;
 	background-color:#000000;
-	font-size:10px;
+	font-size:14px;
 	font-family:Arial, Helvetica, sans-serif;
 	color:#000000;
 	text-align:center;
