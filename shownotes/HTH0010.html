@@ -130,6 +130,37 @@ anylinkmenu.init("menuanchorclass5")
 	<br />
 	<h3>Let's get NASty / Happy Pi Day 43:30</h3>
 		• Steve bakes a Raspberry Pi NAS or two<br />
+		• Items to purchase:
+		<ul>
+			<li><a href="https://www.amazon.com/gp/product/B07TC2BK1X/ref=ppx_yo_dt_b_asin_title_o03_s01?ie=UTF8&psc=1" target="_blank">Raspberry Pi 4b</a></li>
+			<li><a href="https://www.amazon.com/gp/product/B07WMG27T7/ref=ppx_yo_dt_b_asin_title_o03_s01?ie=UTF8&psc=1" target="_blank">Raspberry Pi fanless case</a></li>
+			<li><a href="https://www.amazon.com/gp/product/B07YFGG261/ref=ppx_yo_dt_b_asin_title_o05_s00?ie=UTF8&psc=1" target="_blank">2x WD RED NAS SSDs</a></li>
+			<li><a href="https://www.amazon.com/UGREEN-Cable-Adapter-Converter-Support/dp/B00MYU0EAU" target="_blank">2x Powered SATA-USB adapter cables</a></li>
+			<li><a href="https://www.amazon.com/AmazonBasics-One-Port-USB-Wall-Charger/dp/B0773JCTR5" target="_blank">12w USB wall charger</a></li>
+			<li><a href="https://www.amazon.com/gp/product/B07DC5PPFV/ref=ppx_yo_dt_b_asin_title_o03_s00?ie=UTF8&psc=1" target="_blank">USB-C cables</a></li>
+		</ul>
+
+		• How to install the Raspbian OS and OpenMediaVault (quick shorthand steps) <a href="https://github.com/OpenMediaVault-Plugin-Developers/docs/blob/master/Adden-B-Installing_OMV5_on_an%20R-PI.pdf">Offficial Guide if you don't trust this.</a>:
+		<ul>
+			<li>Use SD Card Formatter to format the SD card</li>
+			<li>Use <a href="https://h2testw.en.lo4d.com/windows">h2testw</a> to test the SD card to ensure it is entirely writeable</li>
+			<li>Format SD card again</li>
+			<li>Download <a href="https://www.raspberrypi.org/downloads/raspbian/">Raspbian Buster Lite</a></li>
+			<li>Use <a href="https://www.balena.io/etcher/">Balena Etcher</a> to burn the 2020-02-13-raspbian-buster-lite.img (or .zip?) onto the SD card</li>
+			<li>Unplug SD card, plug SD card back into PC</li>
+			<li>Find "boot" partition and add a new file just called "ssh"</li>
+			<li>Put SD card into Pi and boot it, find it on the network and PuTTY into it</li>
+			<li>Log in with username of pi and password of raspberry</li>
+			<li>Run <code>passwd</code> and change the pi password</li>
+			<li><code>sudo adduser pi ssh</code></li>
+			<li><code>sudo apt-get update; sudo apt-get install samba -y</code></li>
+			<li><code>sudo apt-get update; sudo apt-get upgrade -y</code></li>
+			<li><code>wget -O - https://github.com/OpenMediaVault-Plugin-Developers/installScript/raw/master/install | sudo bash</code></li>
+			<li><code>sudo reboot</code></li>
+			<li>Ensure OMV is installed and you can log into the web interface (Admin / openmediavault)</li>
+			<li><code>wget -O - https://github.com/OpenMediaVault-Plugin-Developers/packages/raw/master/install | sudo bash</code></li>
+		</ul>
+
 	<br />
 	<h3>Outro - &quot;Plus Delta” 51:17</h3>
 		• Twitter: @HTHThePodcast<br />
