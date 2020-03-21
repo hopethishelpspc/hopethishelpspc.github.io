@@ -11,11 +11,12 @@ img {border:0;}
 img.rounded { border:0; border-radius: 15px 15px 15px 15px; }
 
 /* Rounded images w/drop shadow, class roundeddropshadow: */
-img.roundeddropshadow { border:0; border-radius: 15px 15px 15px 15px;
-/* Drop shadow stuff: */
- box-shadow: 3px 3px 4px #999; /* CSS3 FF/Chrome/Safari */
- /* -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#999999')"; */ /* IE 8 (not supporting this anymore) */
- /* : progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#999999');*/ /* IE 5.5 - 7 (Not supporting this anymore) */
+img.roundeddropshadow {
+	border:0; border-radius: 15px 15px 15px 15px;
+	/* Drop shadow stuff: */
+	box-shadow: 3px 3px 4px #999; /* CSS3 FF/Chrome/Safari */
+	/* -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#999999')"; */ /* IE 8 (not supporting this anymore) */
+	/* : progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#999999');*/ /* IE 5.5 - 7 (Not supporting this anymore) */
  }
 
 .gray {font-weight:bold; color:#999;}
@@ -85,11 +86,11 @@ img.banner {
 /*The rest below are styles that are ordered logically based on the page structure:*/
 
 body {
-/* This is mainly gonna control the background image/color for the outermost part of the site */
+	/* This is mainly gonna control the background image/color for the outermost part of the site */
 	text-align: center;
-/* IE6 uses this to center the layout in the browser window */
-	background-color:#FFFFFF; /*outermost bg*/
-	background-image:url(../images/fillerbg.png); /* Filler gradient background */
+	/* IE6 uses this to center the layout in the browser window */
+	background-color:#000000; /*outermost bg*/
+	/* background-image:url(../images/fillerbg.png); */ /* Filler gradient background */
 	background-repeat:repeat-x; /* Makes it repeat :P */
 	background-position:center;
 	background-attachment:fixed; /* no move on scroll */
@@ -138,7 +139,7 @@ body {
 }
 
 #header_inner {
-/* create space between the box and the content */
+	/* create space between the box and the content */
 	background-color: #000000;
 	color:#000000;
 	padding-bottom:8px; /* spacing between bottom of nav links and stuff below */
@@ -201,7 +202,7 @@ body {
 }
 
 #content_inner {
-/* create space between the box and the the content */
+	/* create space between the box and the the content */
 	padding: 0 1em 1em 1.5em;
 	background-color: #000000;
 	/*background-image:url(../images/contentbg.png);*/
@@ -225,7 +226,7 @@ body {
 }
 
 #footer_inner {
-/* create space between the box and the the content */
+	/* create space between the box and the the content */
 	padding: .5em 1em;
 	text-align: left;
 	background-color:#000000;
@@ -239,6 +240,6 @@ body {
 }
 
 #header_inner, #nav_inner, #content_inner {
-/* clip oversize elements that would break the layout */
+	/* clip oversize elements that would break the layout */
 	overflow: hidden;
 }
