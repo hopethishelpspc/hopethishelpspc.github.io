@@ -107,14 +107,45 @@ anylinkmenu.init("menuanchorclass5")
 
 	<div id = "content_inner">
 
-    <h2>Blog</h2>
+    <h2>PowerShell Advanced Functions</h2>
 
-    <p>If feel like blogging for the sake of blogging, we'll post it here.</p>
+    <h3>Author: Steve</h3>
 
-    <ul>
-        <li><a href="powershellfunctions.html">PowerShell Advanced Functions</a></li>
-        <li><a href="powershellmodules.html">Making PowerShell Modules</a></li>
-    </ul>
+    <p>Do you have a lot of chunks of code that a) perform well and b) you tend to copy/paste everywhere? Code like this is perfect for turning into functions. In PowerShell, there is the concept of Advanced Functions which take advantage of built-in features of PowerShell such as piping, output streams, error handling, and so much more.</p>
+
+    <p>I think the best way to open up to this discussion is to preface this guide with an example. Open up this code in another tab to use as a reference: <a href="https://github.com/hopethishelpspc/hopethishelpspc.github.io/tree/master/codesnippets/SampleModule" target="_blank">this link</a> contains a PowerShell Module file containing an advanced function or two. In this article, I will reference portions of it to explain how it works.</p>
+    
+    <p>A PowerShell Advanced Function is comprised of a documentation section, parameter declarations, and then begin, process, and end blocks.</p>
+
+    <p><img src="../images/bareadvfunction.png" style="height: 50%; width: 50%;" alt="Bare Function Layout"></a></p>
+
+    <p>Documentation is of course incredibly important, and in a function you should utilize the built-in sections that will integrate with PowerShell's Get-Help features, making it easy to reference as a "man page" of your function.</p>
+
+    <p><img src="../images/fndocumentation.png" style="height: 100%; width: 100%;" alt="Function Documentation"></a></p>
+
+    <p>Next up after the documentation and initial declaration of the function is the 'param' section. Here you will define your data "inputs," or what you will specify when you are calling the function. Many things such as parameter order, requirements, validation, and parameter sets are configured here. How you do this will depend on how you want to structure your function. This important data will be used in the main portion of your function and we will discuss this below.</p>
+
+    <p><img src="../images/fnparams.png" style="height: 50%; width: 50%;" alt="Function Parameter Block"></a></p>
+
+    <p>If you choose, you may logically order your code in the 'begin,' 'process,' and 'end' blocks as you ese fit. To be quite honest, I usually skip the "Begin" block as it tends to be more trouble than it is worth when it comes to pipeline input and strange behavior that can occur if this code is skipped. Your mileage may vary of course, but this is just my experience.</p>
+
+    <p>The "Process" block is where the majority of the action happens in a function. Here you will incorporate your code to perform its duty. Here is where you can tie it to the input parameters of the function specified in the "Param" section.</p>
+
+    <p>Concluding your function is the "End" block, usually only including a return statement, which your function can spit out as the completed object...The fruits of your labor, so to speak. Depending on your return object, you might be able to use it as input for another function or data that can be manipulated or exported in a myriad of built-in PowerShell methods such as Export-CSV or Out-Gridview.</p>
+
+    <h4>Tips:</h4>
+
+    <ol>
+        <li>Be careful about what output you are displaying during the course of the function. Don't just use "write-output" everywhere, as it will complicate the function's return stream and lead to unexpected results. Use the proper channels such as "write-verbose," "write-warning," "write-debug," and "write-error."</li>
+        <li>Whenever possible, try to return a PowerShell custom object. This will make your function the most compatible with built-in features.</li>
+        <li>Be careful about the use of the "break" statement in functions. It may cause unexpected termination of your code if the function call is wrapped in a try-catch block. Only use "break" when appropriate (and sparingly), and consider using booleans ("flags") to dictate when code either runs or doesn't run.</li>
+    </ol>
+
+    <p>For further information, check out Microsoft's <a href="https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_functions_advanced?view=powershell-7" target="_blank">official documentation</a> on advanced functions for a more deep dive and granular specifics.</p>
+
+    <p>Be also sure to check out the blog post <a href="powershellmodules.html">Making PowerShell Modules</a>.</p>
+
+    <p>Hope This Helps!</p>
 
 	</div>
 
