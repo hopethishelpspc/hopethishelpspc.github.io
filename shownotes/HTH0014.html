@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <link href="../css/style.css" rel="stylesheet" type="text/css">
 <link rel="stylesheet" href="http://www.google.com/cse/style/look/default.css" type="text/css" /> <!--Google Search at bottom-->
-<title>HTH0012: I Now Fit Into Society</title>
+<title>HTH0014: Back That aaS Up</title>
 
 <!--For top menu-->
 <link rel="stylesheet" type="text/css" href="../css/anylinkmenu.css" />
@@ -107,51 +107,81 @@ anylinkmenu.init("menuanchorclass5")
 
 	<div id = "content_inner">
 
-	<h2>HTH0012: I Now Fit Into Society</h2>
+	<h2>HTH0014: Back That aaS Up</h2>
 	
-	<p style="text-align: center;"><iframe src="https://anchor.fm/hope-this-helps/embed/episodes/HTH0012---I-Now-Fit-Into-Society-ecfkcu" height="102" width="400" frameborder="0" scrolling="no"></iframe></p>
+	<p style="text-align: center;"><iframe src="https://anchor.fm/hope-this-helps/embed/episodes/HTH0014---Back-That-aaS-Up-ed40sb" height="102" width="400" frameborder="0" scrolling="no"></iframe></p>
 
-    <!--https://www.phpjunkyard.com/tools/text-to-html.php-->
+	<!--https://www.phpjunkyard.com/tools/text-to-html.php-->
+	
+	<h3>Boot-Up (Intro…random topics) 00:17</h3>
+		• Combined MFA and Password Reset Registration <a href="https://techcommunity.microsoft.com/t5/azure-active-directory-identity/combined-mfa-and-password-reset-registration-is-now-generally/ba-p/1257355" target="_blank">Now Available</a><br />
+		• <a href="https://www.zdnet.com/article/microsoft-this-windows-10-powershell-script-lets-you-securely-fight-coronavirus-with-foldinghome/" target="_blank">PowerShell Folding</a><br />
+		• Dumb Windows bug of the week: If you have too many notifications, you'll stop getting notifications<br />
+		• State of the Zunion: Steve reviews two Zune AV docks<br />
+		• Zune 80 Menu Tree if you have a broken screen and need to use it blind:<br />
+		<ul>
+			<li>Music</li>
+			<li>Videos</li>
+			<li>Pictures<br />
+			<li>Social<br />
+			<li>Radio<br />
+			<li>Podcasts<br />
+			<li>Settings<br />
+				<li>-----Wireless</li>
+					<li>----------Wireless: on</li>
+					<li>----------sync now</li>
+					<li>----------Information</li>
+					<li>----------presence: basic</li>
+				<li>-----Display</li>
+					<li>----------backlight: 15 seconds</li>
+					<li>----------brightness: medium</li>
+					<li>----------tv out: off</li>
+					<li>----------Background</li>
+				<li>-----Music</li>
+				<li>-----Pictures</li>
+				<li>-----Sounds: on</li>
+				<li>-----Touch: off</li>
+				<li>-----Radio</li>
+				<li>-----Language</li>
+				<li>-----about</li>
+		</ul>
+		• <a href="https://techcommunity.microsoft.com/t5/microsoft-365-blog/office-365-groups-will-become-microsoft-365-groups/ba-p/1303601" target="_blank">O365 Groups to M365 Groups</a><br />
+	
+	<h3>Pinecraft 24:07</h3>
+		• Docker Minecraft Server<br />
+		• Correction: The best Raspberry Pi 4B has 4GB RAM, not 2GB.<br />
+		• Porting in worlds and swapping them out<br />
+		• <a href="https://dbtechreviews.com/2020/03/how-to-install-a-minecraft-server-on-openmediavault-5/" target="_blank">The guide Steve used to set it up</a><br />
+		• docker start minecraft<br />
+		• docker stop minecraft<br />
+	
 
-	<h3>Boot-Up (Intro…random topics) 00:18</h3>
-		• WFH killed Steve's router, got a new one (NetGear r7800 with DD-WRT custom firmware)<br />
-		• Wear a green shirt in video meetings and use the background feature to change your shirt color<br />
-		• <a href="https://www.bing.com/give/dashboard" target="_blank">Bing for a cure</a><br />
-		• <a href="https://www.microsoft.com/en-us/ignite" target="_blank">Ignite be digital</a><br />
-		• <a href="https://devblogs.microsoft.com/powershell/introducing-consoleguitools-preview/" target="_blank">New PowerShell thing that isn't fully baked yet</a><br />
-		• <a href="https://techcommunity.microsoft.com/t5/exchange-team-blog/basic-authentication-and-exchange-online-april-2020-update/ba-p/1275508" target="_blank">Microsoft Extends the EOL date for Basic Authentication</a><br />
+	<h3>Taking a Huge TCPDump 31:43</h3>
+		• Bandwidth issues with CSGO/meetings, but CSGO is the bigger issue<br />
+		• Ran TCPDump on the router to find the largest packets and try to figure out what is going on<br />
+		• <code>tcpdump -n -i eth1 -t greater 1000 -c 200 | cut -f 1,2,3,4 -d '.' | sort | uniq -c | sort -nr | head -n 20&lt;/code&gt;</code><br />
+		• QoS in DD-WRT to play traffic cop<br />
 
-	<h3>Catalina Sucks 21:38</h3>
-		• It seems MacOS Catalina (older versions seem fine..) has issues with WPA3.<br />
-		• Acceptable auth (DD-WRT settings): WPA2 Personal with CCMP-128 (AES), CCMP-256, GCMP, or GCMP-256.<br />
-		• Selecting &quot;WPA2 with SHA256&quot; or &quot;WPA3 Personal / SAE&quot; = No wifi for you (on Catalina)<br />
-		• Scorched Earth: Steve filed Feedback and a bug report to Apple<br />
+	<h3>Team up with Teams 35:38</h3>
+		• Breakout Rooms<br />
+		• Private Channels create new Site Collections<br />
+		• <a href="https://www.microsoft.com/en-us/microsoft-365/roadmap?filters=Microsoft%20Teams" target="_blank">Raise hands in Teams meetings</a><br />
+		• Closed Captioning<br />
+		• Live Translation<br />
+		• SLAs for changes<br />
+			○ Policies taking up to 48 hours<br />
 
-	<h3>OK Zoomer 26:15</h3>
-		• So many security flaws and shady behavior: <a href="https://tidbits.com/2020/04/03/every-zoom-security-and-privacy-flaw-so-far-and-what-you-can-do-to-protect-yourself/" target="_blank">Link</a><br />
-			○ Professional Zoom-bombers<br />
-			○ 2 new macOS vulnerabilities…patched now: <a href="https://threatpost.com/two-zoom-zero-day-flaws-uncovered/154337/" target="_blank">Link</a><br />
-			○ Installer bypassed macOS security, now Zoom is Zooming to save face: <a href="https://twitter.com/ericsyuan/status/1245104758240632832" target="_blank">Link</a><br />
-			○ Encryption &quot;not suited for secrets&quot; <a href="https://citizenlab.ca/2020/04/move-fast-roll-your-own-crypto-a-quick-look-at-the-confidentiality-of-zoom-meetings/" target="_blank">Link</a><br />
-			○ Zoom calls went through China: <a href="https://techcrunch.com/2020/04/03/zoom-calls-routed-china/" target="_blank">Link</a><br />
-		• Follow-up from Zoom CEO: <a href="https://blog.zoom.us/wordpress/2020/04/01/a-message-to-our-users/" target="_blank">Link</a><br />
-		• Trust not earned: Elon Musk bans Zoom: <a href="https://www.reuters.com/article/us-spacex-zoom-video-commn/elon-musks-spacex-bans-zoom-over-privacy-concerns-memo-idUSKBN21J71H" target="_blank">Link</a> - &quot;Please use email, text or phone as alternate means of communication.&quot;<br />
+	<h3>I Pee Tables 45:20</h3>
+		• Identifying/Blocking IPs with iptables on DD-WRT<br />
+		• DD-WRT iptables: temporary vs permanent based on NVRAM<br />
+		• <a href="https://mxtoolbox.com/SuperTool.aspx" target="_blank">Check if an IP is blacklisted</a><br />
+		• <a href="https://github.com/stamparm/ipsum" target="_blank">Found a GitHub for automatic blocking, compatible with iptables</a><br />
+		• <code>for&nbsp;ip&nbsp;in&nbsp;$(curl&nbsp;--compressed&nbsp;https://raw.githubusercontent.com/stamparm/ipsum/master/ipsum.txt&nbsp;2&gt;/dev/null&nbsp;|&nbsp;grep&nbsp;-v&nbsp;&quot;#&quot;&nbsp;|&nbsp;grep&nbsp;-v&nbsp;-E&nbsp;&quot;\s[1-2]$&quot;&nbsp;|&nbsp;cut&nbsp;-f&nbsp;1);&nbsp;do&nbsp;iptables&nbsp;-I&nbsp;INPUT&nbsp;-s&nbsp;$ip&nbsp;-j -n&nbsp;DROP;&nbsp;done</code><br />
 
-	<h3>&quot;Unplanned Outage&quot; (Sponsor section - &quot;Hope this Helps is helped by…&quot;) 34:25</h3>
-		• Bowel MoVeMenT<br />
-		• Answering conference calls in the bathroom<br />
+	<h3>Ask the Stiffs: Question of the Week 51:16</h3>
+		• What is something new you want to learn?<br />
 
-	<h3>M is the new O 36:48</h3>
-		• Teams updates<br />
-		• Office 365 is now Microsoft 365 after April 21: <a href="https://news.yahoo.com/microsoft-365-teams-consumers-160745338.html" target="_blank">Link</a><br />
-		• &quot;Don't worry-you don't need to do a thing. Your product services, apps, and features will stay the same, along with the price. Your subscription name will update automatically in the admin center and your monthly billing statements on or after April 21, 2020.&quot;<br />
-		• Office 365 ProPlus is now Microsoft 365 Apps for enterprise: <a href="https://docs.microsoft.com/en-us/deployoffice/name-change" target="_blank">Link</a><br />
-		• Follow-up: Before O365, it was known as Microsoft Business Productivity Online Suite (BPOS)<br />
-
-	<h3>Ask the Stiffs: Question of the Week 40:28</h3>
-		• What are some of the last minute changes that are being implemented to improve security to protect your environment? <br />
-
-	<h3>Outro - &quot;Plus Delta&quot;</h3>
+	<h3>Outro - &quot;Plus Delta&quot; 53:02</h3>
 		• We help you, you help us: Rate us on iTunes<br />
 
 	</div>
