@@ -135,10 +135,13 @@ anylinkmenu.init("menuanchorclass5")
 		<li>Out-GridView</li>
 		<li>Clip</li>
 		<li>VS Code Regex</li>
-		<li>Blank Lines</li>
-		<li>Finding Email addresses</li>
-		<li>Character sequences</li>
 		<li>Quickly converting a list into a PowerShell Array</li>
+		<li>Start of a line: <code>^</code></li>
+		<li>End of a line: <code>$</code></li>
+		<li>Blank Lines: <code>^\s*$\n</code></li>
+		<li>Line break: <code>\n</code></li>
+		<li>Find an email address (Warning: May grab apostrophe characters inadvertently.): <code>[a-z0-9!#\$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#\$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?</code></li>
+		<li>Taking a list of names/etc and converting to an array: Find <code>\n</code> and replace with <code>"`\n,"</code> (yes, including double quotes) then add <code>$MyArray = @("</code> to the start of the first line, and <code>")</code> at the end of the last line.</li>
 	</ul>
 	
 	<h3>PowerToys Spotlight</h3>
