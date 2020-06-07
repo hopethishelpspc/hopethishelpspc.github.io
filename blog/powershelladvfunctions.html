@@ -107,6 +107,7 @@ anylinkmenu.init("menuanchorclass5")
 
 	<div id = "content_inner">
 
+    <article>
     <h2>PowerShell Advanced Functions</h2>
 
     <h3>Author: Steve</h3>
@@ -117,15 +118,15 @@ anylinkmenu.init("menuanchorclass5")
     
     <p>A PowerShell Advanced Function is comprised of a documentation section, parameter declarations, and then begin, process, and end blocks.</p>
 
-    <p><img src="../images/bareadvfunction.png" style="height: 50%; width: 50%;" alt="Bare Function Layout"></a></p>
+    <p><img src="../images/bareadvfunction.png" style="height: 50%; width: 50%;" alt="Bare Function Layout"></p>
 
     <p>Documentation is of course incredibly important, and in a function you should utilize the built-in sections that will integrate with PowerShell's Get-Help features, making it easy to reference as a "man page" of your function.</p>
 
-    <p><img src="../images/fndocumentation.png" style="height: 100%; width: 100%;" alt="Function Documentation"></a></p>
+    <p><img src="../images/fndocumentation.png" style="height: 100%; width: 100%;" alt="Function Documentation"></p>
 
     <p>Next up after the documentation and initial declaration of the function is the 'param' section. Here you will define your data "inputs," or what you will specify when you are calling the function. Many things such as parameter order, requirements, validation, and parameter sets are configured here. How you do this will depend on how you want to structure your function. This important data will be used in the main portion of your function and we will discuss this below.</p>
 
-    <p><img src="../images/fnparams.png" style="height: 50%; width: 50%;" alt="Function Parameter Block"></a></p>
+    <p><img src="../images/fnparams.png" style="height: 50%; width: 50%;" alt="Function Parameter Block"></p>
 
     <p>If you choose, you may logically order your code in the 'begin,' 'process,' and 'end' blocks as you ese fit. To be quite honest, I usually skip the "Begin" block as it tends to be more trouble than it is worth when it comes to pipeline input and strange behavior that can occur if this code is skipped. Your mileage may vary of course, but this is just my experience.</p>
 
@@ -146,6 +147,7 @@ anylinkmenu.init("menuanchorclass5")
     <p>Be also sure to check out the blog post <a href="powershellmodules.html">Making PowerShell Modules</a>.</p>
 
     <p>Hope This Helps!</p>
+    </article>
 
 	</div>
 
