@@ -30,14 +30,14 @@ This podcast is SFW. Feel free to tweet at us with feedback.
 
 ===========/r/Podcasting===========
 
-* **[Technology] | Hope This Helps**
+**[Technology] | Hope This Helps**
 
-**Show Synopsis:** The STiffs talk about IT industry topics, some of which may or may not make you a better sysadmin. We discuss things mostly in the Microsoft world, but also dabble in tech news and other interesting tech topics whenever possible.
+* **Show Synopsis:** The STiffs talk about IT industry topics, some of which may or may not make you a better sysadmin. We discuss things mostly in the Microsoft world, but also dabble in tech news and other interesting tech topics whenever possible.
 
 * In **Episode 19**, we talk about the AZ-900 exam, Patch Tuesday printing issues, SMTP with OAuth, various news topics, WWDC, Shodan, TikTok security, and more.
 
 * [Episode Link](https://hthpc.com/shownotes/HTH0019.html)
 
-This podcast is SFW. Feel free to tweet at us with feedback.
+* This podcast is SFW. Feel free to tweet at us with feedback.
 
 [Website](https://hthpc.com) // [Anchor](https://anchor.fm/hope-this-helps) // [Twitter](https://twitter.com/hththepodcast/) // [Twitch](https://www.twitch.tv/hopethishelps) // [iTunes](https://podcasts.apple.com/us/podcast/hope-this-helps/id1492373157) // [Overcast](https://overcast.fm/itunes1492373157/hope-this-helps) // [Spotify](https://open.spotify.com/show/1Yedsm23LoF35w6LyivMmh)
