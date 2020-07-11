@@ -79,6 +79,24 @@ img.banner {
 	max-height: 110px;
 }
 
+/* Code Blocks */
+code {
+	display: block;
+	white-space: pre-wrap;
+}
+
+/* Classes for multi level bullets in lists */
+/* inspired by https://www.computerhope.com/issues/ch001703.htm */
+/* https://www.w3schools.com/CSSref/pr_list-style-type.asp */
+.sub1 {
+	list-style-type: square;
+	margin-left: 3em;
+}
+.sub2 {
+	list-style-type: circle;
+	margin-left: 6em;
+}
+
 /* End misc things */
 
 /*==================================================================*/
