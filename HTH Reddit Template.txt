@@ -1,12 +1,12 @@
 ===========/r/Podcast===========
 
-**[Technology] | Hope This Helps | Episode 19 - I Can't Promise That I Care**
+**[Technology] | Hope This Helps | Episode 20 - Attention Deficit ATP**
 
 [Anchor](https://anchor.fm/hope-this-helps) // [Twitch](https://www.twitch.tv/hopethishelps) // [Website](https://hthpc.com) // [iTunes](https://podcasts.apple.com/us/podcast/hope-this-helps/id1492373157) // [Overcast](https://overcast.fm/itunes1492373157/hope-this-helps) // [Spotify](https://open.spotify.com/show/1Yedsm23LoF35w6LyivMmh)
 
 **Show Synopsis:** The STiffs talk about IT industry topics, some of which may or may not make you a better sysadmin. We discuss things mostly in the Microsoft world, but also dabble in tech news and other interesting tech topics whenever possible.
 
-* In **Episode 19**, we talk about the AZ-900 exam, Patch Tuesday printing issues, SMTP with OAuth, various news topics, WWDC, Shodan, TikTok security, and more.
+* In **Episode 20**, we talk about Defender ATP web content filtering, HEVC codec security issues, critical F5 vulnerability, Newly announced Teams features, WTF is Docker Compose, Logic Apps, Windows Admin Center frustrations, PowerShell fixes, and more.
 
 This podcast is SFW. Feel free to tweet at us with feedback.
 
@@ -16,11 +16,11 @@ This podcast is SFW. Feel free to tweet at us with feedback.
 
 ===========/r/Podcasts===========
 
-**[Technology] | Hope This Helps | Episode 19 - I Can't Promise That I Care** | [Episode Link](https://hthpc.com/shownotes/HTH0019.html)
+**[Technology] | Hope This Helps | Episode 20 - Attention Deficit ATP** | [Episode Link](https://hthpc.com/shownotes/HTH0020.html)
 
 **Show Synopsis:** The STiffs talk about IT industry topics, some of which may or may not make you a better sysadmin. We discuss things mostly in the Microsoft world, but also dabble in tech news and other interesting tech topics whenever possible.
 
-* In **Episode 19**, we talk about the AZ-900 exam, Patch Tuesday printing issues, SMTP with OAuth, various news topics, WWDC, Shodan, TikTok security, and more.
+* In **Episode 20**, we talk about Defender ATP web content filtering, HEVC codec security issues, critical F5 vulnerability, Newly announced Teams features, WTF is Docker Compose, Logic Apps, Windows Admin Center frustrations, PowerShell fixes, and more.
 
 This podcast is SFW. Feel free to tweet at us with feedback.
 
@@ -34,9 +34,9 @@ This podcast is SFW. Feel free to tweet at us with feedback.
 
 * **Show Synopsis:** The STiffs talk about IT industry topics, some of which may or may not make you a better sysadmin. We discuss things mostly in the Microsoft world, but also dabble in tech news and other interesting tech topics whenever possible.
 
-* In **Episode 19**, we talk about the AZ-900 exam, Patch Tuesday printing issues, SMTP with OAuth, various news topics, WWDC, Shodan, TikTok security, and more.
+* In **Episode 20**, we talk about Defender ATP web content filtering, HEVC codec security issues, critical F5 vulnerability, Newly announced Teams features, WTF is Docker Compose, Logic Apps, Windows Admin Center frustrations, PowerShell fixes, and more.
 
-* [Episode Link](https://hthpc.com/shownotes/HTH0019.html)
+* [Episode Link](https://hthpc.com/shownotes/HTH0020.html)
 
 * This podcast is SFW. Feel free to tweet at us with feedback.
 
