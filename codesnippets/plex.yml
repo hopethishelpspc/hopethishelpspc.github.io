@@ -1,0 +1,17 @@
+---
+version: "2"
+services:
+  plex:
+    image: linuxserver/plex
+    container_name: plex
+    network_mode: host
+    environment:
+      - PUID=998
+      - PGID=100
+      - VERSION=docker
+    volumes:
+      - /srv/dev-disk-by-label-Data/config/plex:/config
+      - /srv/dev-disk-by-label-Data/Videos:/Videos
+      - /srv/dev-disk-by-label-Data/Photos:/Photos
+      - /srv/dev-disk-by-label-Data/Audio:/Audio
+    restart: unless-stopped
