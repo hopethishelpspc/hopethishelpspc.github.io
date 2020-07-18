@@ -1,0 +1,13 @@
+{
+ // "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+ "name": "PowerShell 7 (Privileged account)",
+ "commandline": "C:\\Windows\\System32\\runas.exe /savecred /user:domain\\my_privilegedacct \"C:\\Program Files\\PowerShell\\7\\pwsh.exe\"",
+ "hidden": false
+ },
+ {
+ // "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+ "name": "Windows PowerShell (Privileged account)",
+ "commandline": "C:\\Windows\\System32\\runas.exe /savecred /user:domain\\my_privilegedacct powershell",
+ "hidden": false
+ },
+ //other entries etc as you see fit

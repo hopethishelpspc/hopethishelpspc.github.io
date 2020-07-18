@@ -138,27 +138,8 @@ anylinkmenu.init("menuanchorclass5")
 		<li>Examples: Plex, QBitTorrent, FileBrowser, Minecraft, httpd</li>
 		<li>Why do we care? IaC / Azure / etc</li>
 		<li><a target="_blank" href="https://www.guru99.com/kubernetes-vs-docker.html">Docker and Kubernetes comparisons</a></li>
+			<li class="sub1"><a target="_blank" href="https://github.com/hopethishelpspc/hopethishelpspc.github.io/blob/master/codesnippets/plex.yml">Example YML for Plex</a></li>
 	</ul>
-
-	<code>
-		---
-		version: "2"
-		services:
-		plex:
-		image: linuxserver/plex
-		container_name: plex
-		network_mode: host
-		environment:
-		- PUID=998
-		- PGID=100
-		- VERSION=docker
-		volumes:
-		- /path/to/folder/config/plex:/config
-		- /path/to/folder/Videos:/Videos
-		- /path/to/folder/Photos:/Photos
-		- /path/to/folder/Audio:/Audio
-		restart: unless-stopped
-	</code>
 
 	<h3>What the P-P-P-PowerApp?</h3>
 	<ul>
