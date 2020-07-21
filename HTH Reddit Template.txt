@@ -1,6 +1,6 @@
 ===========/r/Podcast===========
 
-**[Technology] | Hope This Helps | Episode $EpNum - Attention Deficit ATP**
+**[Technology] | Hope This Helps | Episode $EpNum - $EpTitle**
 
 [Anchor](https://anchor.fm/hope-this-helps) // [Twitch](https://www.twitch.tv/hopethishelps) // [Website](https://hthpc.com) // [iTunes](https://podcasts.apple.com/us/podcast/hope-this-helps/id1492373157) // [Overcast](https://overcast.fm/itunes1492373157/hope-this-helps) // [Spotify](https://open.spotify.com/show/1Yedsm23LoF35w6LyivMmh)
 
@@ -16,7 +16,7 @@ This podcast is SFW. Feel free to tweet at us with feedback.
 
 ===========/r/Podcasts===========
 
-**[Technology] | Hope This Helps | Episode $EpNum - Attention Deficit ATP** | [Episode Link](https://hthpc.com/shownotes/$HTHCode.html)
+**[Technology] | Hope This Helps | Episode $EpNum - $EpTitle** | [Episode Link](https://hthpc.com/shownotes/$HTHCode.html)
 
 **Show Synopsis:** Tiff and Steve ramble about the daily struggles of Tier 3 IT life: Cloud computing, Microsoft 365, Azure, Exchange, InfoSec, PowerShell, Docker, Zune, and whatever else is worth discussing.
 
