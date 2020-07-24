@@ -44,10 +44,10 @@ a.menuanchorclass5 {color:#FF6633; text-decoration:none; text-transform:uppercas
 a.menuanchorclass6 {color:#FF6633; text-decoration:none; text-transform:uppercase; font-weight:bold; font-size:18px;} /* Link 6 */
 
 /* Capstone bar links */
-a.capstonebarlink:link {color:#FF6633; font-family: Helvetica, sans-serif; text-decoration:none;}
-a.capstonebarlink:hover {color:#FF6633; font-family: Helvetica, sans-serif; text-decoration:none;}
-a.capstonebarlink:visited {color:#FF6633; font-family: Helvetica, sans-serif; text-decoration:none;}
-.capstonebarlinkcurrentpage {color:#999; font-family: Helvetica, sans-serif; font-weight:bold; text-decoration:none; border-top:solid #C03;}
+a.capstonebarlink:link {color:#FF6633; font-family: Verdana, Geneva, sans-serif; text-decoration:none;}
+a.capstonebarlink:hover {color:#FF6633; font-family: Verdana, Geneva, sans-serif; text-decoration:none;}
+a.capstonebarlink:visited {color:#FF6633; font-family: Verdana, Geneva, sans-serif; text-decoration:none;}
+.capstonebarlinkcurrentpage {color:#999; font-family: Verdana, Geneva, sans-serif; font-weight:bold; text-decoration:none; border-top:solid #C03;}
 
 /* Left navbar links bold when hovered over */
 a.leftnavlink:link {color:#FFFFFF; text-decoration:none;}
@@ -150,7 +150,7 @@ body {
 #header {
 	/* The topmost boxlike area */
 	background-color: #000000;
-	font-family:Arial, Helvetica, sans-serif;
+	font-family:Verdana, Geneva, sans-serif;
 
 	/* rounded borders: */
 	border-radius: 15px 15px 15px 15px;
@@ -170,7 +170,7 @@ body {
 	width: 25%;
 	float: left;
 	background-color: #000000;
-	font-family:Arial, Helvetica, sans-serif;
+	font-family:Verdana, Geneva, sans-serif;
 	font-size:16px;
 
 	/* rounded borders: */
@@ -194,7 +194,7 @@ body {
 	background-color:#000000;
 	color:#FFFFFF;
 	font-size:16px;
-	font-family:Arial, Helvetica, sans-serif;
+	font-family:Verdana, Geneva, sans-serif;
 	/*border-right: 3px solid #999;*/
 
 	/* rounded borders: */
@@ -225,7 +225,7 @@ body {
 	background-color: #000000;
 	/*background-image:url(../images/contentbg.png);*/
 	color:#FFFFFF;
-	font-family:Arial, Helvetica, sans-serif;
+	font-family:Verdana, Geneva, sans-serif;
 	font-size:16px;
 
 	/* rounded borders: */
@@ -237,7 +237,7 @@ body {
 	/*padding: 0 1em 1em 1.5em;*/ /* Commenting this out makes it take up whole width, sorta prettier */
 	background-color: #000000;
 	color:#000000;
-	font-family:Arial, Helvetica, sans-serif;
+	font-family:Verdana, Geneva, sans-serif;
 
 	/* rounded borders: */
 	border-radius: 15px 15px 15px 15px;
@@ -249,7 +249,7 @@ body {
 	text-align: left;
 	background-color:#000000;
 	font-size:14px;
-	font-family:Arial, Helvetica, sans-serif;
+	font-family:Verdana, Geneva, sans-serif;
 	color:#000000;
 	text-align:center;
 
