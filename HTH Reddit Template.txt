@@ -16,7 +16,7 @@ This podcast is SFW. Feel free to tweet at us with feedback.
 
 ===========/r/Podcasts===========
 
-**[Technology] | Hope This Helps | Episode $EpNum - $EpTitle** | [Episode Link](https://hthpc.com/shownotes/$HTHCode.html)
+**[Technology] | Hope This Helps | Episode $EpNum - $EpTitle** | [Episode Link](http://hthpc.com/shownotes/$HTHCode.html)
 
 **Show Synopsis:** Tiff and Steve ramble about the daily struggles of Tier 3 IT life: Cloud computing, Microsoft 365, Azure, Exchange, InfoSec, PowerShell, Docker, Zune, and whatever else is worth discussing.
 
@@ -32,7 +32,7 @@ This podcast is SFW. Feel free to tweet at us with feedback.
 
 * In **Episode $EpNum**, we talk about $description
 
-* [Episode Link](https://hthpc.com/shownotes/$HTHCode.html)
+* [Episode Link](http://hthpc.com/shownotes/$HTHCode.html)
 
 * This podcast is SFW. Feel free to tweet at us with feedback.
 
