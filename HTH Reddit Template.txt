@@ -26,3 +26,19 @@ This podcast is SFW. Feel free to tweet at us with feedback.
 * This podcast is SFW. Feel free to tweet at us with feedback.
 
 [Website](https://hthpc.com) // [Anchor](https://anchor.fm/hope-this-helps) // [Twitter](https://twitter.com/hththepodcast/) // [Twitch](https://www.twitch.tv/hopethishelps) // [iTunes](https://podcasts.apple.com/us/podcast/hope-this-helps/id1492373157) // [Overcast](https://overcast.fm/itunes1492373157/hope-this-helps) // [Spotify](https://open.spotify.com/show/1Yedsm23LoF35w6LyivMmh)
+
+===========/r/PodcastSharing===========
+
+Title:
+[Technology, Sysadmin, IT] Hope This Helps | Episode $EpNum - $EpTitle | (SFW)
+
+Text:
+[Technology, Sysadmin, IT]
+
+Hope This Helps | Episode $EpNum - $EpTitle
+
+Tiff and Steve ramble about the daily struggles of Tier 3 IT life: Cloud computing, Microsoft 365, Azure, Exchange, InfoSec, PowerShell, Docker, Zune, and whatever else is worth discussing.
+
+In **Episode $EpNum**, we talk about $description
+
+(SFW) | [Link](https://hthpc.com/shownotes/$HTHCode.html)
