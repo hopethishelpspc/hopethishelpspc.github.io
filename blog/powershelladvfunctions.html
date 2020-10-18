@@ -129,7 +129,7 @@ anylinkmenu.init("menuanchorclass5")
 
     <p><img src="../images/fnparams.png" style="height: 50%; width: 50%;" alt="Function Parameter Block"></p>
 
-    <p>If you choose, you may logically order your code in the 'begin,' 'process,' and 'end' blocks as you ese fit. To be quite honest, I usually skip the "Begin" block as it tends to be more trouble than it is worth when it comes to pipeline input and strange behavior that can occur if this code is skipped. Your mileage may vary of course, but this is just my experience.</p>
+    <p>If you choose, you may logically order your code in the 'begin,' 'process,' and 'end' blocks as you see fit. To be quite honest, I usually skip the "Begin" block as it tends to be more trouble than it is worth when it comes to pipeline input and strange behavior that can occur if this code is skipped. Your mileage may vary of course, but this is just my experience.</p>
 
     <p>The "Process" block is where the majority of the action happens in a function. Here you will incorporate your code to perform its duty. Here is where you can tie it to the input parameters of the function specified in the "Param" section.</p>
 
@@ -140,7 +140,7 @@ anylinkmenu.init("menuanchorclass5")
     <ol>
         <li>Be careful about what output you are displaying during the course of the function. Don't just use "write-output" everywhere, as it will complicate the function's return stream and lead to unexpected results. Use the proper channels such as "write-verbose," "write-warning," "write-debug," and "write-error."</li>
         <li>Whenever possible, try to return a PowerShell custom object. This will make your function the most compatible with built-in features.</li>
-        <li>Be careful about the use of the "break" statement in functions. It may cause unexpected termination of your code if the function call is wrapped in a try-catch block. Only use "break" when appropriate (and sparingly), and consider using booleans ("flags") to dictate when code either runs or doesn't run.</li>
+        <li>Be careful about the use of the "break" statement in functions. It may cause unexpected termination of your code if the function call is wrapped in a try-catch block. Only use "break" when appropriate (and sparingly), and <a href="../shownotes/HTH0022.html">using booleans</a> ("flags") to dictate when code either runs or doesn't run.</li>
     </ol>
 
     <p>For further information, check out Microsoft's <a href="https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_functions_advanced?view=powershell-7" target="_blank">official documentation</a> on advanced functions for a more deep dive and granular specifics.</p>
