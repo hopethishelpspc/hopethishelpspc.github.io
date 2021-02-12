@@ -1,0 +1,29 @@
+#Jellyfin is a Free Software Media System that puts you in control of managing and streaming your media.
+#It is an alternative to the proprietary Emby and Plex, to provide media from a dedicated server to end-user devices via multiple apps.
+#Jellyfin is descended from Emby's 3.5.2 release and ported to the .NET Core framework to enable full cross-platform support.
+#Open source version of Emby
+#There are no strings attached, no premium licenses or features, and no hidden agendas: just a team who want to build something better and work together to achieve it.
+#https://github.com/linuxserver/docker-jellyfin
+#https://youtu.be/Q783xqjD2wI
+#For Raspberry Pi deployments. Change the tag for other architectures.
+---
+version: "2.1"
+services:
+  jellyfin:
+    image: ghcr.io/linuxserver/jellyfin:latest
+    container_name: jellyfin
+    environment:
+      - PUID=998 #use "id admin" to set the correct value.
+      - PGID=100 #use "id admin" to set the correct value.
+      - TZ=America/New_York
+    ports:
+      - 8096:8096 #default web UI
+      #- 8920:8920/udp #optional. Secure port
+      #- 1900:1900/udp #optional
+    volumes:
+      - /path/to/your/config/jellyfin:/config
+      - /path/to/your/Videos:/Videos
+      - /path/to/your/Photos:/Photos
+      - /path/to/your/Audio:/Audio
+      #- /path/to/your/Videos/transcode:/transcode #optional
+    restart: unless-stopped

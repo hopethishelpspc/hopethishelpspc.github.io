@@ -1,17 +1,20 @@
+#https://github.com/linuxserver/docker-plex/
+#https://hub.docker.com/r/linuxserver/plex
+#For Raspberry Pi deployments. Change the tag for other architectures.
 ---
 version: "2"
 services:
   plex:
-    image: linuxserver/plex
+    image: ghcr.io/linuxserver/plex:bionic
     container_name: plex
     network_mode: host
     environment:
-      - PUID=998
-      - PGID=100
+      - PUID=998  #use "id admin" to set the correct value.
+      - PGID=100  #use "id admin" to set the correct value.
       - VERSION=docker
     volumes:
-      - /srv/dev-disk-by-label-Data/config/plex:/config
-      - /srv/dev-disk-by-label-Data/Videos:/Videos
-      - /srv/dev-disk-by-label-Data/Photos:/Photos
-      - /srv/dev-disk-by-label-Data/Audio:/Audio
+      - /path/to/your/config/plex:/config
+      - /path/to/your/Videos:/Videos
+      - /path/to/your/Photos:/Photos
+      - /path/to/your/Audio:/Audio
     restart: unless-stopped
