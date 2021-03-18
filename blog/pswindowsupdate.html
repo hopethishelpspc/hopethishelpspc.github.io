@@ -1,0 +1,205 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link href="../css/style.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="http://www.google.com/cse/style/look/default.css" type="text/css" /> <!--Google Search at bottom-->
+<title>HTH Blog: PSWindowsUpdate: Take Back Control of Windows Update</title>
+
+<!--For top menu-->
+<link rel="stylesheet" type="text/css" href="../css/anylinkmenu.css" />
+<script src="../javascript/menucontents.js"></script>
+<script src="../javascript/anylinkmenu.js">
+//***********************************************
+//* AnyLink JS Drop Down Menu v2.0- © Dynamic Drive DHTML code library (www.dynamicdrive.com)
+//* This notice MUST stay intact for legal use
+//* Visit Project Page at http://www.dynamicdrive.com/dynamicindex1/dropmenuindex.htm for full source code
+//***********************************************/
+</script>
+<script>
+//anylinkmenu.init("menu_anchors_class") //Pass in the CSS class of anchor links (that contain a sub menu)
+//Uncomment/comment these inits as needed based on your menu bar below.
+anylinkmenu.init("menuanchorclass")
+anylinkmenu.init("menuanchorclass2")
+anylinkmenu.init("menuanchorclass3")
+anylinkmenu.init("menuanchorclass4")
+anylinkmenu.init("menuanchorclass5")
+//anylinkmenu.init("menuanchorclass6")
+//anylinkmenu.init("menuanchorclass7")
+//anylinkmenu.init("menuanchorclass8")
+</script>
+<!--End for top menu-->
+
+<style>
+#content {width: 100%;} /* For pages without the left navbar - fills up entirety of page width */
+</style>
+
+</head>
+<body>
+
+<div id="capstonebar">
+
+	<div id="capstonebar_inner">
+
+    <!--Google Search Box, or search link if no javascript enabled-->
+    <!--<div id="searchlink" style="float:right;"><a class="capstonebarlink" href="javascript:;" onClick="document.getElementById('cse-search-form').style.display='inline';">Search</a></div>
+    <noscript><div id="searchlink" style="float:right;"><a class="capstonebarlink" href="searchresults.html">Search</a></div></noscript>
+
+    <div id="cse-search-form" style="width:20%; float:right; display:none;">Loading</div>-->
+
+    <!--***Drop Script code here***-->
+
+    <!--End Google Search Box-->
+
+    <p>
+        <a href="../index.html"><img src="../images/hthlogo15.png" alt="HTH" title="HTH Home" width="15" height="15" /></a>&nbsp;&nbsp;
+        <span class="capstonebarlinkcurrentpage">Hope This Helps</span>
+        |&nbsp;<iframe src="https://duckduckgo.com/search.html?width=150&site=hthpc.com&nbsp;!g&prefill=Search&bgcolor=FFF" style="overflow:visible;margin:0;padding:0;width:208px;height:20px;" frameborder="0"></iframe>
+        |&nbsp;<a class="capstonebarlink" href="https://anchor.fm/hope-this-helps" target="_blank">Anchor</a>
+        |&nbsp;<a class="capstonebarlink" href="https://podcasts.apple.com/us/podcast/hope-this-helps/id1492373157" target="_blank">iTunes</a>
+        |&nbsp;<a class="capstonebarlink" href="https://open.spotify.com/show/1Yedsm23LoF35w6LyivMmh" target="_blank">Spotify</a>
+        |&nbsp;<a class="capstonebarlink" href="https://overcast.fm/itunes1492373157/hope-this-helps" target="_blank">Overcast</a>
+        |&nbsp;<a class="capstonebarlink" href="https://twitter.com/HTHTHEPODCAST" target="_blank">Twitter</a>
+        |&nbsp;<a class="capstonebarlink" href="https://www.twitch.tv/hopethishelps" target="_blank">Twitch</a>
+        |&nbsp;<a class="capstonebarlink" href="https://anchor.fm/s/11b35770/podcast/rss" target="_blank">RSS</a>
+		|&nbsp;<a class="capstonebarlink" href="https://reddit.com/r/hopethishelpspodcast" target="_blank">Reddit</a>
+    </p>
+
+	</div>
+
+</div>
+
+
+
+
+<div id="main_wrapper">
+
+<div id = "header">
+	<div id = "header_inner">
+
+    <a href="../index.html"><img src="../images/logo.PNG" class="banner" alt="Logo"></a><br /><br />
+    <!--If you want to use the image map code (commented out at bottom), add  usemap="#bannermap" to the end of the above image code.-->
+
+    		<!-- Begin Navigation -->
+            <!--The Rollover inserts are just for show, remove/insert them however you want.-->
+            <div class="topnavbar" style="text-align:center;">
+                <a href="../about.html" class="menuanchorclass" >About</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="../shownotes/index.html" class="menuanchorclass2" data-id="anylinkmenu1">Show Notes</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="../codesnippets/index.html" class="menuanchorclass3" >Code Snippets</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<a href="../blog/index.html" class="menuanchorclass4" >Blog</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="../live.html" class="menuanchorclass5" >Live</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            </div>
+            <!-- End Navigation -->
+
+    </div>
+</div>
+
+<!-- <div id = "nav">
+
+	<div id = "nav_inner">
+
+		<p><a class="leftnavlink" href="#">Link here</a></p>
+
+	</div>
+
+</div> -->
+
+<div id = "content">
+
+	<div id = "content_inner">
+
+    <article>
+    <h2>PSWindowsUpdate: Take Back Control of Windows Update</h2>
+
+    <h3>Author: Steve</h3>
+
+    <p><img src="../images/pswindowsupdate1.png" style="height: 90%; width: 90%;" alt="Server 2016 gobbling up any update it sees"></p>
+    <p>"I think I've made a big mistake."</p>
+    <p>Once upon a time, sysadmins could freely check for updates without installing them at the same time. One could look down the barrel of the Windows Update firehose's nozzle and choose the water pressure at their leisure. Back in the day, to have manual control, you didn't need to triage the torrent of KBs via WSUS or blindly install it all whilst praying to the Redmond gods that you wouldn't get a bum update wrecking your system. Nervously refreshing askwoody.com and the Patch Management mailing list in anticipation of an outbreak of COVID-SERVER-19 was (and let's be real here, still is) a standard practice in the <a href="https://mspoweruser.com/microsoft-begins-patch-rollups-based-on-the-new-windows-servicing-model/">modern Windows era of monthly rollups over small granular patches</a>.</p>
+
+    <p><img src="../images/pswindowsupdate2.png" style="height: 90%; width: 90%;" alt="The Windows Update selection screen, prior to Windows 10/Server 2016."></p>
+    <p>What was wrong with this, Microsoft? (Photo credit: <a href="https://mspoweruser.com/microsoft-begins-patch-rollups-based-on-the-new-windows-servicing-model/">mspoweruser.com</a>)</p>
+
+    <p>If you've listened to our podcast, you are no doubt aware of our disdain for the <a href="https://www.linkedin.com/pulse/20140806183208-12100070-why-did-microsoft-lay-off-programmatic-testers">apparent lack of quality assurance personnel for Windows Updates as of late</a>. I'd argue this wouldn't even be half bad if it weren't "Windows 10 era" Microsoft operating systems' appetite for vacuuming up any available update at a moment's notice while removing the granular KB selection options that were present from the Windows 7 and 8.1 years. Thankfully, I am happy to report that while the GUI options may no longer be with us, there is still a way to maintain manual control over incoming updates. Our hero of the day is Michal Gajda and his <a href="https://www.powershellgallery.com/packages/PSWindowsUpdate/2.0.0.4">PSWindowsUpdate</a> module.</p>
+    <p>PSWindowsUpdate is a PowerShell module capable of checking for Windows Updates and offering an entire utility belt of tools dedicated to giving us the endpoint patching controls that are now out of reach. Immensely helpful for a fine variety of use cases, the module is dead simple to install, and even deader simpler (sorry) to use.</p>
+
+    <p><img src="../images/pswindowsupdate3.png" style="height: 90%; width: 90%;" alt="PSWindowsUpdate in action"></p>
+    <p>You get to see what's available, accept or deny whatever you'd like, and you can even download/pre-stage without installing!</p>
+    <p>Installing PSWindowsUpdate is just a matter of running <code>Install-Module PSWindowsUpdate</code> and confirm when prompted. I recommend doing this in a PowerShell window that is being run as Administrator. I've found that systems older than Server 2019 may require you to update the settings on your .NET Service Point Manager's security protocol to use TLS 1.2, otherwise you will get a download error. The command to fix this setting is a simple one-liner (run as Administrator in PowerShell, naturally): <code>[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12</code></p>
+
+    <p><img src="../images/pswindowsupdate4.png" style="height: 90%; width: 90%;" alt="Attempting to install PSWindowsUpdate before updating the .NET Service Point Manager TLS version."></p>
+    <p>If you don't have your .NET Service Point Manager security protocol configured to use TLS 1.2, you get these scary errors.</p>
+
+    <p><img src="../images/pswindowsupdate5.png" style="height: 100%; width: 100%;" alt="Attempting to install PSWindowsUpdate after updating the .NET Service Point Manager TLS version"></p>
+    <p>Much better. You also need to install the "NuGet provider" as a pre-requisite for this. Just accept the prompt and proceed with the installation. "Y" to the first one, "A" to the second one.</p>
+
+    <p><img src="../images/pswindowsupdate6.png" style="height: 90%; width: 90%;" alt="The cmdlets for PSWindowsUpdate"></p>
+    <p>Behold the PSWindowsUpdate cmdlets!</p>
+
+    <p>I'm not going to parrot everything the module's very-well-done documentation covers, but instead I just want to go over some highlights and favorites that I feel you will find incredibly useful. Obviously these are not the only use cases for this toolkit, but it's just what I find myself coming back to most frequently.</p>
+    <p>Let's start with the basics: Want to check for Windows Updates but don't necessarily want to commit to anything? Simply run Get-WindowsUpdate and that should do the trick.</p>
+
+    <p><img src="../images/pswindowsupdate7.png" style="height: 100%; width: 100%;" alt="What Get-WindowsUpdate looks like"></p>
+    <p>Behold: A true "Check for updates" button with no snake oil tactics.</p>
+
+    <p>It only gets simpler from here. If you'd like to download (but not install) these updates, add a "-Download" to the end of the command. By default, you will be asked to confirm before anything is downloaded, so there's no commitment required. Below you'll see me deny an update and accept another, at my leisure:</p>
+
+    <p><img src="../images/pswindowsupdate8.png" style="height: 90%; width: 90%;" alt="Rejecting an update, and accepting another"></p>
+    <p>REJECTED! This is MY system, and YOU are a guest, Microsoft!</p>
+
+    <p>To cap off the trilogy of common update tasks, add "-Install" to...well, install the updates, as well as downloading them, etc. Example below with a Server 2016 box (yes, it even covers reboot prompts):</p>
+
+    <p><img src="../images/pswindowsupdate9.png" style="height: 95%; width: 95%;" alt="A larger list of updates, handled via PSWindowsUpdate. Every update was reviewed, accepted, downloaded, and installed. A prompt is asking whether or not to reboot now."></p>
+    <p>Not since the Nintendo Entertainment System days have we seen such good control.</p>
+
+    <p>If you have an idea on what updates you want to install by their titles, PSWindowsUpdate offers searchability by update title, and includes wildcard support. For example, let’s say I want to simply update my Defender definitions and platform without bothering with thumbing through all the other updates that may or may not be available for the system I’m working on. We simply run this: <code>Get-WindowsUpdate -Download -Install -Title "Update for Windows Defender*"</code> and the cmdlet will search for matching entries.</p>
+
+    <p><img src="../images/pswindowsupdate10.png" style="height: 100%; width: 100%;" alt="Searching for updates by title and wildcard"></p>
+    <p>Exactly what I want! No distractions!</p>
+
+    <p>Lastly, if you want to reach out to Microsoft Update (good for systems that are bound to WSUS or an internal update source), you can also add "-MicrosoftUpdate" to the command if you wish, which is great for odds and ends like SCEP/Microsoft Defender Antimalware engine updates, SQL Server cumulative updates, VMware drivers, Silverlight patches, etc.</p>
+    <p>If you thought this wasn't amazing enough: I've also had good luck with using PSWindowsUpdate to fix Windows Update problems. An included command known as "Reset-WUComponents" will roll all of those arduous Windows Update engine reset tasks into one simple one-stop-shop cmdlet:</p>
+
+    <p><img src="../images/pswindowsupdate11.png" style="height: 70%; width: 70%;" alt="Reset-WUComponents in action"></p>
+    <p>Remember when you had to know how to do all this by hand? Well now you can repurpose that part of your brain.</p>
+
+    <p>Anyways, that's about all I wanted to say about that. PSWindowsUpdate has a whole bunch more utility in this module that I haven't covered here, and I invite you to peruse the documentation for the module via its built-in "get-help" integration. Additional included features such as the ability to manually in a downloaded MSU file, remove updates, view a detailed update history, configure settings, and more. You would think Microsoft would include utilities like this natively in the operating system for power users, but at least it's available as a third party module. I invite you to try this out and enjoy all of the settings that we used to have in the Windows GUI, plus many more much-desired patching tools.</p>
+    <p>Hope this helps!</p>
+
+    </article>
+
+	</div>
+
+</div>
+
+
+
+<div id = "footer">
+
+	<div id = "footer_inner">
+
+    <!--Javascript footer, to edit this, edit "javascript/footer.js"-->
+	<script src="../javascript/footer.js"></script>
+
+    <noscript>
+    It appears you have Javascript disabled in your browser or something is blocking it.<br />
+    If you enable it, this site will have extra visual features. If not, that's cool too.
+    </noscript>
+
+	</div>
+
+</div>
+
+
+</div> <!--End Main Wrapper-->
+
+    <!--Image map for above banner, makes different regions click to different links:-->
+    <!--It's way down here because if it is put up above, it creates a weird clump of space-->
+    <!--This is commented out because you probably won't need this, but it's here if you do. It makes parts of the top banner clickable in areas you specify.-->
+    <!--<map name="bannermap">
+  	<area shape="rect" coords="0,-1,600,199" href="index.html" alt="OSIL Home"/>
+    <area shape="rect" coords="600,0,1024,200" href="http://www.something.com/" alt="Something" />
+	</map>-->
+
+</body>
+</html>
